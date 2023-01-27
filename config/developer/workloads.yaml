@@ -26,7 +26,7 @@ spec:
       cpu: 2000m
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/krisapplegate/where-for-dinner
       ref:
         branch: main
     subPath: where-for-dinner-api-gateway
@@ -65,7 +65,7 @@ spec:
       cpu: 2000m
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/krisapplegate/where-for-dinner
       ref:
         branch: main
     subPath: where-for-dinner-search
@@ -108,7 +108,7 @@ spec:
       cpu: 2000m
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/krisapplegate/where-for-dinner
       ref:
         branch: main
     subPath: where-for-dinner-search-proc
@@ -148,7 +148,7 @@ spec:
       cpu: 2000m
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/krisapplegate/where-for-dinner
       ref:
         branch: main
     subPath: where-for-dinner-notify
@@ -189,7 +189,7 @@ spec:
       cpu: 2000m
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/krisapplegate/where-for-dinner
       ref:
         branch: main
     subPath: where-for-dinner-availability
@@ -221,7 +221,7 @@ spec:
       cpu: 2000m
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/krisapplegate/where-for-dinner
       ref:
         branch: main
     subPath: where-for-dinner-ui
@@ -253,7 +253,7 @@ spec:
       cpu: 2000m
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/krisapplegate/where-for-dinner
       ref:
         branch: main
     subPath: where-for-dinner-crawler
