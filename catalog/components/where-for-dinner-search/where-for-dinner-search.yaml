@@ -4,26 +4,6 @@ metadata:
   name: where-for-dinner-search
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=where-for-dinner-search"
-  links:
-    - url: https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/
-      icon: docs
-      title: Customer-facing Docs
-    - url: https://github.com/pivotal/docs-tap
-      icon: github
-      title: Docs Source Code
-    - url: https://network.tanzu.vmware.com/products/tanzu-application-platform/
-      icon: catalog
-      title: Tanzu Network Product Page
-  links:
-    - url: https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/
-      icon: docs
-      title: Customer-facing Docs
-    - url: https://github.com/pivotal/docs-tap
-      icon: github
-      title: Docs Source Code
-    - url: https://network.tanzu.vmware.com/products/tanzu-application-platform/
-      icon: catalog
-      title: Tanzu Network Product Page
 spec:
   type: service
   lifecycle: experimental
