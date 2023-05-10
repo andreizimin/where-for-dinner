@@ -3,5 +3,15 @@ kind: System
 metadata:
   name: where-for-dinner
   description: Where for Dinner Application
+  links:
+    - url: https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/
+      icon: docs
+      title: Customer-facing Docs
+    - url: https://github.com/pivotal/docs-tap
+      icon: github
+      title: Docs Source Code
+    - url: https://network.tanzu.vmware.com/products/tanzu-application-platform/
+      icon: catalog
+      title: Tanzu Network Product Page
 spec:
   owner: where-for-dinner-team
