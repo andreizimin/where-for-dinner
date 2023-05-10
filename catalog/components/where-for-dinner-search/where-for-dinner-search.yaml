@@ -4,11 +4,6 @@ metadata:
   name: where-for-dinner-search
   annotations:
     "backstage.io/kubernetes-label-selector": "app.kubernetes.io/part-of=where-for-dinner-search"
-spec:
-  type: service
-  lifecycle: experimental
-  owner: where-for-dinner-team
-  system: where-for-dinner
   links:
     - url: https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/
       icon: docs
@@ -19,6 +14,11 @@ spec:
     - url: https://network.tanzu.vmware.com/products/tanzu-application-platform/
       icon: catalog
       title: Tanzu Network Product Page
+spec:
+  type: service
+  lifecycle: experimental
+  owner: where-for-dinner-team
+  system: where-for-dinner
   providesApis:
     - where-for-dinner-search
   dependsOn: 
