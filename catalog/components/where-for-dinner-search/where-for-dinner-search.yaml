@@ -9,6 +9,16 @@ spec:
   lifecycle: experimental
   owner: where-for-dinner-team
   system: where-for-dinner
+  links:
+    - url: https://docs.vmware.com/en/VMware-Tanzu-Application-Platform/
+      icon: docs
+      title: Customer-facing Docs
+    - url: https://github.com/pivotal/docs-tap
+      icon: github
+      title: Docs Source Code
+    - url: https://network.tanzu.vmware.com/products/tanzu-application-platform/
+      icon: catalog
+      title: Tanzu Network Product Page
   providesApis:
     - where-for-dinner-search
   dependsOn: 
