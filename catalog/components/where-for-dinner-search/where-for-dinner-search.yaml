@@ -28,7 +28,7 @@ spec:
   type: openapi
   lifecycle: experimental
   owner: where-for-dinner-team
-  system: where-for-dinner  
+  component: where-for-dinner-search  
   definition: |
     openapi: "3.0.0"
     info:
